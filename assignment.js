@@ -72,7 +72,7 @@ console.log(totalBrick);
 function tinyFriend(n){
     var smallest=n[0];
     var nameLength= smallest.length;
-    var j=0;
+    var j=n[0];
     
      for(var i=0; i<n.length;i++){
          
@@ -89,5 +89,5 @@ function tinyFriend(n){
     //  return nameLength;
 }
 
-var small=tinyFriend(["sh", "ilg", "kabiravai"]);
+var small=tinyFriend(["shfgdf", "ilg", "kfdg"]);
  console.log(small);
